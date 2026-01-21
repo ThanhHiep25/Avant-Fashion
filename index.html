@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVANT | High-End Fashion & Art</title>
+    <meta name="description" content="AVANT is a high-end fashion experience. We build garments as architectural structures for the human form. No seasons. No trends. Only the permanent pursuit of silence through silhouette." />
+    <meta name="keywords" content="fashion, avant-garde, high-end, luxury, architecture, silhouette, minimalism, art" />
+    <meta name="author" content="AVANT" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avant-fashion.com/" />
+    <meta property="og:title" content="AVANT | High-End Fashion & Art" />
+    <meta property="og:description" content="AVANT is a high-end fashion experience. We build garments as architectural structures for the human form." />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://avant-fashion.com/" />
+    <meta property="twitter:title" content="AVANT | High-End Fashion & Art" />
+    <meta property="twitter:description" content="AVANT is a high-end fashion experience. We build garments as architectural structures for the human form." />
+    <meta property="twitter:image" content="/og-image.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="/A.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'off-white': '#F5F5F0',
+              'sand': '#E5E5DB',
+              'electric-blue': '#001AFF',
+              'neon-red': '#FF003C',
+              'acid-green': '#DFFF00',
+              'hot-pink': '#FF1493',
+              'nero': '#0F0F0F',
+              'deep-black': '#050505',
+              'accent': 'var(--accent-color)',
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Space Grotesk"', 'sans-serif'],
+              mono: ['"Space Mono"', 'monospace'],
+            },
+            animation: {
+              'marquee': 'marquee 25s linear infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0%)' },
+                '100%': { transform: 'translateX(-50%)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --accent-color: #FF003C;
+        --grain-opacity: 0.05;
+        --radius: 0px;
+      }
+      body {
+        cursor: none;
+        background-color: #F5F5F0;
+        overflow-x: hidden;
+        transition: background-color 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      ::selection {
+        background: var(--accent-color);
+        color: white;
+      }
+      .noise-bg::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 999;
+        opacity: var(--grain-opacity);
+        background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+        transition: opacity 0.5s ease;
+      }
+      .text-outline {
+        -webkit-text-stroke: 1px currentColor;
+        color: transparent;
+        transition: all 0.3s ease;
+      }
+      @media (min-width: 768px) {
+        .text-outline {
+          -webkit-text-stroke: 2px currentColor;
+        }
+      }
+      .text-outline-subtle {
+        -webkit-text-stroke: 0.5px currentColor;
+        color: transparent;
+        opacity: 0.1;
+      }
+      ::-webkit-scrollbar {
+        width: 4px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0F0F0F;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--accent-color);
+      }
+      .interactive-item {
+        border-radius: var(--radius);
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: var(--accent-color);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.27.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="noise-bg">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
