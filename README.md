@@ -1,20 +1,86 @@
+# Avant Fashion Experience
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img src="./public/imageApp/Screenshot 2026-01-21 010419.jpg" alt="Avant Fashion Home" width="100%" />
 </div>
 
-# Run and deploy your AI Studio app
+## 🌟 Introduction
 
-This contains everything you need to run your app locally.
+Welcome to **Avant Fashion**, a cutting-edge e-commerce experience designed to showcase the future of digital fashion retail. This project combines premium aesthetics with smooth interactivity to create an immersive shopping journey.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1gwPxXraeiM-yEXInyCpyZM61j7IArnVD
+## 🚀 Features
 
-## Run Locally
+- **Immersive UI/UX**: Designed with a focus on visual impact, using smooth transitions and high-quality imagery.
+- **Dynamic Product Collections**: Browse through curated collections with interactive filtering and viewing options.
+- **Seamless Shopping Cart**: Fully integrated cart functionality with sidebar management and real-time updates.
+- **Responsive Design**: Optimized for all devices, ensuring a consistent premium experience on mobile, tablet, and desktop.
+- **Modern Tech Stack**: Built with performance and scalability in mind.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: Javascript-based styling / Vanilla CSS / Custom Design System
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Routing**: [React Router](https://reactrouter.com/)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📸 Gallery
+
+<details>
+<summary>Click to view Application Screenshots</summary>
+<br>
+
+| Home & Collections | Product Details | Cart & Interaction |
+|-------------------|----------------|-------------------|
+| <img src="./public/imageApp/Screenshot 2026-01-21 010419.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 010601.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 010638.jpg" width="300" /> |
+| <img src="./public/imageApp/Screenshot 2026-01-21 010702.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 010729.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 010751.jpg" width="300" /> |
+| <img src="./public/imageApp/Screenshot 2026-01-21 010820.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 010839.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 010933.jpg" width="300" /> |
+| <img src="./public/imageApp/Screenshot 2026-01-21 011019.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 011115.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 011151.jpg" width="300" /> |
+| <img src="./public/imageApp/Screenshot 2026-01-21 011209.jpg" width="300" /> | <img src="./public/imageApp/Screenshot 2026-01-21 011329.jpg" width="300" /> | |
+
+</details>
+
+## 💻 Installation & Setup
+
+Follow these steps to get the project running locally on your machine.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (Version 18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/avant-fashion.git
+   cd avant-fashion
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # OR
+   yarn install
+   ```
+   *Note: If you encounter peer dependency issues (common with React 19), use:*
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in Browser**
+   Visit `http://localhost:3000` (or the URL shown in your terminal) to view the app.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+Created by [Nguyen Hiep]
