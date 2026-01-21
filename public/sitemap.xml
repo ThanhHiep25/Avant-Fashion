@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://avant-fashion.com/</loc>
+    <loc>https://avant-fashion.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://avant-fashion.com/collection</loc>
+    <loc>https://avant-fashion.vercel.app/collection</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://avant-fashion.com/journal</loc>
+    <loc>https://avant-fashion.vercel.app/journal</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://avant-fashion.com/studio</loc>
+    <loc>https://avant-fashion.vercel.app/studio</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://avant-fashion.com/about</loc>
+    <loc>https://avant-fashion.vercel.app/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://avant-fashion.com/archive</loc>
+    <loc>https://avant-fashion.vercel.app/archive</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
